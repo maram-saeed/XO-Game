@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="playerText">XO Game</h1>
+    <div class="res">
+    <button id="restart">Restart</button>
+    </div>
+    <div class="container">
+        <div class="boxs">
+            
+            <!-- <span class="box1 box top-left" id="box0" onclick="startGame()"></span> -->
+            <span class="box1 box top-left" id="box0"></span>
+            <span class="box2 box" id="box1"></span>
+            <span class="box3 box top-right" id="box2"></span>
+            <span class="box4 box top-left" id="box3"></span>
+            <span class="box5 box" id="box4"></span>
+            <span class="box6 box top-right" id="box5"></span>
+            <span class="box7 box top-left" id="box6"></span>
+            <span class="box8 box" id="box7"></span>
+            <span class="box9 box top-right" id="box8"></span>
+        </div>
+        <div class="content">
+            <div class="player1">
+                <h3>Player1</h3>
+                <p class="score1">0</p>
+            </div>
+            <div class="round">
+                <span>Round</span>
+                <p class="numOfRound">--</p>
+            </div>
+            <div class="player2">
+                <h3>Player2</h3>
+                <p class="score2">0</p>
+            </div>
+        </div>
+    </div>
+    <audio src="audio/sound-click22.mp3" id="sound-click" preload="auto"></audio>
+    <audio src="audio/sound-click.mp3" id="success" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
