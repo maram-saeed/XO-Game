@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Finger Paint',cursive;
+    font-family: 'Patrick Hand',Arial, Helvetica, sans-serif,cursive;
+    /* font-family: 'Shantell Sans',Arial, Helvetica, sans-serif; */
 }
 body {
     background-color: #232222;
@@ -16,6 +17,7 @@ body {
     text-align: center;
     color: white;
     padding-top: 50px;
+    font-size: 36px;
 }
 @media (max-width: 768px) {
     #playerText {
@@ -51,6 +53,7 @@ body {
     cursor: pointer;
     user-select: none;
     font-weight: bold;
+    font-size: 18px;
 }
 .container {
     margin: 50px auto;
@@ -138,6 +141,13 @@ span {
 }
 .round span {
     font-weight: bold;
+    font-size: 20px;
+}
+.player1 h3, .player2 h3 {
+    font-size: 20px;
+}
+.player1 .score1, .player2 .score2 {
+    font-size: 20px;
 }
 .round p {
     text-align: center;
